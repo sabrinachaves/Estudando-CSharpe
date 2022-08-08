@@ -5,7 +5,7 @@ class Programa
     public static void Main(string[] args)
     {
 
-        Console.WriteLine("Projeto 5 - Caracteres e Textos\n");
+        Console.WriteLine("Projeto 6 - Caracteres e Textos\n");
 
         char letra = 'a';
         Console.WriteLine(letra + "\n");
@@ -18,6 +18,17 @@ class Programa
 
         letra = (char)72;
         Console.WriteLine(letra + "\n");
+
+        string primeiraFrase = "Olá, meu nome é Sabrina";
+        Console.WriteLine(primeiraFrase);
+
+        //É possível criar uma string vazia, mas não é possível criar um char vazio;
+
+        Console.WriteLine(@"Meus hobbys são:
+            - Ler;
+            -Yoga;
+            -Musculação;
+            -Jogos de tabuleiros");
 
         Console.WriteLine("Tecle enter para sair...");
         Console.ReadLine();
